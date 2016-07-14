@@ -164,7 +164,7 @@ margin:auto;
 
 
 .product, .team, .features, .cta2, .container{
-	max-width: 850px;
+	// max-width: 850px;
   margin: 0 auto;
 	// background-color: black;
 }
@@ -183,15 +183,23 @@ margin:auto;
 }
 .description1 {
     // max-width: 470px;
-    margin: 5px;
+    margin: 80px;
     display: inline-block;
 
-    p{
-      margin-bottom: 15px;
-    }
+}
+.description1 p{
+  margin: 0;
+}
+.description1 ul{
+padding: 0px;
+margin: 0;
+
 }
 .description1 li{
-  margin-bottom:30px;
+  // margin-bottom:30px;
+}
+.inline{
+  margin: 0px;
 }
 .scroll{
   margin-top: 30px;
@@ -203,7 +211,7 @@ margin:auto;
   }
 
 .description2 p{
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .description2 h2{
@@ -215,7 +223,7 @@ margin:auto;
 }
 
 .inner_sect {
-    // max-width: 830px;
+    // max-width: 900px;
     // background: blue;
     margin: 0 auto;
     // padding-top: 140px;
@@ -263,11 +271,13 @@ margin:auto;
 	color:white;
 	font-weight: 300;
 	text-transform: uppercase;
+  margin: 0 ;
 }
 .cta h4{
 	color: white;
 	font-weight: 300;
-	padding: 0px 0px 65px 0px;
+	padding: 0px 0px 44px 0px;
+  margin-top: 0;
 
 }
 .sign_up{
@@ -278,6 +288,7 @@ margin:auto;
 	border: none;
 	color: white;
 	padding: 26px 50px;
+  margin-bottom: 60px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -285,7 +296,7 @@ margin:auto;
 	font-family: "Open Sans",Arial,sans-serif;
 }
 .cta_text{
-	padding: 115px 0px 22px 0px;
+	padding: 100px 0px 15px 0px;
 }
 .email_form{
 	width: 490px;
@@ -403,13 +414,16 @@ padding: 3.5px 0px;
 }
 footer{
 	border-top:1px solid #e1e1e1;
-	max-width: 900px;
+	// max-width: 900px;
 	height: 100px;
 
 	.footer_nav{
 		display: inline-block;
 		// max-width: 800px;
 	}
+  .nav{
+    margin: 0;
+  }
 }
 
 
@@ -446,4 +460,10 @@ footer{
 
 .active{
   background-color: #A1F1E1;
+  border-radius: 15%;
+}
+
+.alert{
+display:none;
+
 }

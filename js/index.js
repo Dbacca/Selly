@@ -100,7 +100,7 @@ $('.velLink').on('click', function(event){
 });
 
 
-// email validation example JS
+
 function validateEmail(sEmail) {
 
    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
@@ -121,7 +121,7 @@ $('#btnValidate').on('click', function() {
            e.preventDefault();
        }
        if (validateEmail(sEmail)) {
-           alert('Thanks, your email has been submitted. n/ Look for a note from us soon ');
+           alert('Thanks, your email has been submitted.Look for a note from us soon ');
        }
        else {
            alert('Invalid Email Address');
